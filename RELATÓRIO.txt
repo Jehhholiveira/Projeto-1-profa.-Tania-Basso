@@ -1,0 +1,8 @@
+relatório de operações para projeto de GIT da professora Tânia Basso
+
+1. git init para inicializar um repositório local - Jefferson
+2. git add . para adicionar para rastrear todos os arquivos do site - Jefferson
+3. git commit -m "Adicionado o Site no repositorio" - Jefferson
+4. git status para confirmar que o arquivo está sendo rastreado - Jefferson
+5. git remote add origin para apontar os arquivos para o repositório online - Jefferson
+6. git push -u origin master para fazer o upload dos arquivos - Jefferson
