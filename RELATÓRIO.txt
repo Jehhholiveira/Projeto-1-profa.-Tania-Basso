@@ -6,3 +6,8 @@ relatório de operações para projeto de GIT da professora Tânia Basso
 4. git status para confirmar que o arquivo está sendo rastreado - Jefferson
 5. git remote add origin para apontar os arquivos para o repositório online - Jefferson
 6. git push -u origin master para fazer o upload dos arquivos - Jefferson
+
+7. git clone para fazer o download dos arquivos no repositório do github - Thiago
+8. git config --global user.email thiago...@gmail.com para identificação - Thiago
+9. git config --global user.name thiago para identificação - Thiago
+10. git push origin master para fazer o upload dos arquivos que faltavam no site - Thiago
