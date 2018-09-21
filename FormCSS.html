@@ -1,0 +1,291 @@
+<!doctype html>
+
+<html>
+    
+<head>
+	<meta name="viewport" content="width=device-width,inicial-scale=1, maximum-scale=1.0">
+	<meta charset="utf-8">
+	<title></title>
+	<link rel="icon" href="favicon.ico" sizes="16x16">
+	
+		
+	<style type="text/css">
+
+
+
+		body {
+			margin: 0;
+			padding: 0;
+			
+
+
+	      font-family: sans-serif;
+		}
+
+		.box {
+			border-radius: 5px;
+			border: 1px solid gray;
+			max-width: 500px;
+			box-shadow: 5px 5px 5px black;
+			padding: 10px 30px 10px 30px;
+			color: orange;		
+		}
+
+		
+
+
+		.box-campos {
+			margin-bottom:20px;
+		}
+
+        label {
+			color:orange;			
+		}
+
+		.formataInput {
+			width: 100%;
+			height: 30px;
+			margin-top: 5px;
+            background-color: lightblue;
+            border-radius: 10px;
+            
+		}                
+
+		input:hover {
+			background-color: blue;
+			border-color: black;
+		}
+
+		input:focus {
+			background-color: white;
+			border-color: green;
+		} 
+
+		.button {
+			background-color: #00BFFF;
+			border-bottom: 5px solid #0000CD;
+			border-right: 5px solid #0000CD;
+			border-top: 5px solid #0000FF;
+			border-left: 5px solid #0000FF;
+			width: 100%;
+			color:black;
+			padding: 10px 0px 10px 0px;
+			border-radius: 5px;
+			font-size: 20px;
+			text-shadow: 1px 1px black;
+		}
+
+		.button:hover {
+		  background-color: #6A5ACD;
+		  border-bottom: 5px solid #0000FF;
+		  border-right: 5px solid #0000FF;
+		  border-top: 5px solid #0000CD;
+		  border-left: 5px solid #0000CD;
+		}
+
+		.button:focus{
+		  background-color: #4682B4;
+		  border-bottom: 5px solid #0000FF;
+		  border-right: 5px solid #0000FF;
+		  border-top: 5px solid #0000CD;
+		  border-left: 5px solid #0000CD;
+		}
+
+		a {
+			font-size: 20px;
+			text-decoration: none;
+			transition: 0.5s;
+			color: red;
+		}
+
+		a:hover {
+
+			font-size: 40px;
+			transition: 0.s5s;
+		}
+
+		.video {
+			position: fixed; 
+			right: 0; 
+			bottom: 0;
+			min-width: 100%; 
+			min-height: 100%;
+			width: auto; 
+			height: auto; 
+			z-index: -900;
+		}
+
+
+
+		.box1 {
+
+
+
+		}
+
+		.nav {
+			background-color: #7D1538;
+			width: 100%;
+			height: 40px;
+		}
+
+		.nav1 {
+			background-color: #7D1538;
+			width: 100%;
+			height: 40px;
+			margin-top: 1315px;
+			position: absolute;
+		}
+
+
+		
+
+
+
+
+
+	</style>
+
+</head>
+
+
+
+<body>
+
+	<div class="nav">
+		
+	</div>
+
+	<div class="nav1">
+		
+	</div>
+
+	<div class="box1">
+
+		<figure>
+			<p align="center"><img src="OCSC.png" width="300"></p>
+		</figure>
+		 	
+	</div>
+
+	<video autoplay loop  class="video">
+		<source src="12.mp4" type="video/mp4">
+	</video>	
+
+<table align="center">
+	<td>
+	
+	<div class="box">
+	
+        		<h1>Formulário de inscrição</h1>
+				<hr>
+
+		<form>
+            
+				<div class="box-campos">
+					<label class="formataLabel" for="nome">Nome</label>
+					<input class="formataInput" id="nome" name="nome" type="text" placeholder="Digite um nome" required minlength="5">
+				</div>
+
+				<div class="box-campos">
+					<label class="formataLabel" for="RA">RA</label>
+					<input class="formataInput" id="RA" type="text" required placeholder="Registro Acadêmico">
+				</div>
+
+				<div class="box-campos">
+					<label class="formataLabel" for="aniversario">Data de Nascimento</label>
+					<input class="formataInput" id="aniversario" type="date" required>
+				</div>
+
+				<div class="box-campos">
+					<label class="formataLabel">Sexo</label>
+					<br>
+					<input name="sexo" id="m" type="radio" value="m"><label for="m">M</label>
+					<input name="sexo" id="f" type="radio" value="f"><label for="f">F</label>
+				</div>
+
+				<div class="box-campos">
+					<label class="formataLabel" for="email">E-Mail</label>
+					<input class="formataInput" id="email" type="email" required placeholder="nome@email.com">
+				</div>
+
+				<div class="box-campos">
+					<label class="formataLabel" for="endereço">Endereço</label>
+					<input class="formataInput" type="endereço" name="endereço" required placeholder="ex:Rua, Bairro, Número" >				
+				</div>	
+
+				<div class="box-campos">
+					<label class="formataLabel" for="cidade">Cidade</label>
+					<input class="formataInput" id="cidade" type="cidade" required placeholder="cidade onde mora">
+				</div>
+
+				<div class="box-campos">
+					<label class="formataLabel" for="estado">Estado</label>
+					<input class="formataInput" id="estado" type="estado" required placeholder="ex:São Paulo">
+				</div>
+
+				<div class="box-campos">
+					<label class="formataLabel" for="telefone">Telefone</label>
+					<input class="formataInput" id="telefone" type="estado" required placeholder="(19)99999-9999">
+				</div>
+
+				<div class="box-campos">
+					<label class="formataLabel" for="modalidade">Modalidade</label>
+					<input class="formataInput" id="modalidade" type="modalidade" list="listamodalidade" placeholder="escolha sua modalidade">
+					<datalist id="listamodalidade">
+					<option value="Freestyle">Freestyle</option>
+					<option value="DownHill">DownHill</option>
+					<option value="DownHill Slide">DownHill Slide</option>
+					<option value="Vertical">Vertical</option>
+					<option value="Street">Street</option>
+					<option value="Mini-rampa">Mini-rampa</option>
+					</datalist>
+				</div>
+
+				<div class="box-campos">
+					<input class="button" type="reset" value="Limpar Campos">
+				</div>
+
+				<div class="box-campos">
+					<input class="button" type="submit" value="Enviar">
+				</div>
+		</form>
+
+				
+
+	</div>
+
+
+				<footer>
+				<hr>
+		     		<p align="center"><a href=http://www.cotil.unicamp.br target="blank"> COTIL <b>|</b> </a>
+		     		<a href=http://www.unicamp.br target="blank"> UNICAMP </a><b>|</b> <a href=index.html>HOME</a></p>
+		 		</footer>
+
+		 		
+
+				</div>
+
+				
+
+
+
+	</td>
+
+	
+
+</table>
+			
+			
+
+
+</body>
+	
+
+</html>	
+
+
+
+
+
+
