@@ -1,0 +1,18 @@
+relatório de operações para projeto de GIT da professora Tânia Basso
+
+1. git init para inicializar um repositório local - Jefferson
+2. git add . para adicionar para rastrear todos os arquivos do site - Jefferson
+3. git commit -m "Adicionado o Site no repositorio" - Jefferson
+4. git status para confirmar que o arquivo está sendo rastreado - Jefferson
+5. git remote add origin para apontar os arquivos para o repositório online - Jefferson
+6. git push -u origin master para fazer o upload dos arquivos - Jefferson
+
+7. git clone para fazer o download dos arquivos no repositório do github - Thiago
+8. git config --global user.email thiago...@gmail.com para identificação - Thiago
+9. git config --global user.name thiago para identificação - Thiago
+10. git push origin master para fazer o upload dos arquivos que faltavam no site - Thiago
+
+11. git clone para fazer o download dos arquivos no repositório do github - Jefferson
+12. git commit -am para adicionar  e comentar as modificações ao mesmo tempo - Jefferson
+13. git push para fazer o upload dos arquivos modificados - Jefferson
+14. git revert --no-edit  bf954faa155e3fd84162214b735a5d04143a9188 (codigo do commit) para desfazer as alteraçoes no arquivo pincipal - Jefferson
